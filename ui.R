@@ -38,7 +38,7 @@ shinyUI(fluidPage(
                            h2("Returns and moving averages"),
                            plotOutput("distPlot")),
                   tabPanel("Documentation",h2("Documentation"),
-                           
+                           p(span("Source files are available on"),a("Github",href="https://github.com/km20/ReturnsAnalyzer")),
                            p("The proposed shiny application provides analysis results for a chosen financial asset. It uses historical data to calculate the daily returns and related indicators such as moving averages, variance and Beta. The application also provides two plots showing the evolution of the daily returns and their moving averages over a given period.
                              "),
                            
